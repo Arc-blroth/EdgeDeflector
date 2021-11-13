@@ -1,4 +1,5 @@
-# EdgeDeflector
+# EdgeDeflector x EdgeAndBingDeflector
+_Arc's unholy fusion of https://github.com/da2x/EdgeDeflector and https://github.com/pulsejet/EdgeAndBingDeflector_
 
 *EdgeDeflector* is  a small helper application that intercepts URIs that force-open web links in Microsoft Edge and redirects it to the system’s default web browser. This allows you to use Windows features like the Cortana assistant and built-in help links with the browser of your choice instead of being forced to use Microsoft Edge. With EdgeDeflector, you’re free to use Firefox, Google Chrome, or whatever your favorite web browser might be!
 
