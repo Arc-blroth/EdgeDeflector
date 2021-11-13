@@ -55,7 +55,7 @@ namespace EdgeDeflector
 
         static string RewriteMsEdgeUriSchema(string uri)
         {
-            RegistryKey? engine_key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Clients\EdgeUriDeflector", true);
+            RegistryKey engine_key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Clients\EdgeUriDeflector", false);
 
             string engine = (string) engine_key?.GetValue("SearchEngine");
             string msedge_protocol_pattern = "^microsoft-edge:/*";
